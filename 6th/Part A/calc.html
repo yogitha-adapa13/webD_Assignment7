@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" type="media/jpeg" href="\media\favicon.jpeg">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body><br><br><br>
+    <span id="namespace"></span><br><br>
+    <table id="calc" cellpadding="5" cellspacing="0" border="1" width="30%" align="center">
+        <tr><td colspan="4"><input type="number" name="num1" id="num1" placeholder="Number 1"  onblur="validateNum('Number 1','num1err','num1')"><br><span class="errorClass" id="num1err">Number 1 is required</span></td></tr>
+        <tr><td colspan="4"><input type="number" name="num2" id="num2" placeholder="Number 2"  onblur="validateNum('Number 2','num2err','num2')"><br><span class="errorClass" id="num2err">Number 2 is required</span></td></tr>
+        <tr><td colspan="4"><input type="text" name="num3" id="num3" placeholder="Result" readonly></td></tr>
+        <tr><td><input type="button" name="add" id="add" value="+"></td><td><input type="button" name="sub" id="sub" value="-"></td><td><input type="button" name="multi" id="multi" value="*"></td><td><input type="button" name="divide" id="divide" value="/"></td></tr>
+    </table>
+</body>
+</html>
+<script src="jquery2.js"> </script>

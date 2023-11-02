@@ -1,0 +1,48 @@
+body {
+	font-family: Arial, sans-serif;
+    background-color: rgb(208, 152, 152);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+	
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width:40%;
+}
+
+.errorClass {
+	font-size: 12px;
+	color: red;
+}
+.errorClass
+{
+	color:red;
+	display:inline;
+	font-size: 12px;
+}
+.noerrorClass{
+	display:none;
+}
+#namespace 
+{
+	float: right;
+	margin-right: 20px;
+}
+#add, #sub, #multi, #divide {
+	background-color: lightcyan;
+	color: black;
+	font-size: 20px;
+
+}
+#calc td {
+	text-align: center;
+	width:100%;
+}
+
